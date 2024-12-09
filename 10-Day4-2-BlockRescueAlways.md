@@ -20,7 +20,7 @@ Try to create a directory under `/root/` (restricted path). If it fails, log an 
      ```yaml
      - name: Block and Rescue Demo - Basic
        hosts: localhost
-       become: yes
+       become: no
        tasks:
          - name: Demonstrate block and rescue
            block:
